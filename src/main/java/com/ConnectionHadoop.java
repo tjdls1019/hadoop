@@ -16,6 +16,7 @@ public class ConnectionHadoop {
 	public static void main(String[] args) {
 		PrivilegedExceptionAction<Void> pea = new PrivilegedExceptionAction<Void>() {
 
+			
 			@Override
 			//무명함수(interface 함수)
 			public Void run() throws Exception {

@@ -32,6 +32,7 @@ public class WordCount {
 		}
 	}
 	
+	
 	public static class WCReducer extends Reducer<Text, LongWritable, Text, LongWritable> {
 			private LongWritable lw = new LongWritable();
 			
